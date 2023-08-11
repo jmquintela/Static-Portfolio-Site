@@ -10,16 +10,13 @@
 <main>
 <div class="about">
 	<div class="aboutme">
-	I´m a storyboard artist based on Santiago Chile ,
+	I´m a Freelance Illustrator,Designer & Storyboard artist based on Santiago Chile ,
 	I work mostly for animation production companies for 3d and motion graphics projects.
 	
-	<br><br>Feel Free to book me on your project:
+	<br><br>Feel Free to contact me for your next project : JMQUINTELA@GMAIL.COM 
 	<br>
     </div>
 	
-	<div class="contact">
-	<ContactForm/>
-    </div>
 </div>
 </main>
 <style>

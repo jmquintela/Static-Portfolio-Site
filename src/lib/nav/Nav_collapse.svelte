@@ -8,10 +8,10 @@
     </button>
     <div class="collapse navbar-collapse center " id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item">
+        <li class="nav-item line">
           <a class="navlink" href="/">WORKS</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item line">
           <a class="navlink" href="/about">ABOUT</a> 
         </li>
         <li class="nav-item">
@@ -32,14 +32,34 @@
      display: flex;
      margin: auto;
   }
+  .line {  
+  text-decoration: underline 0.11em rgba(0, 0, 0, 0);
+  text-underline-offset: 0.2em;
+  transition: text-decoration-color 600ms,text-underline-offset 300ms;
+}
+ .line:hover {  
+  text-decoration: underline 0.11em rgba(0, 0, 0, 0);
+  transition: text-decoration-color 600ms,text-underline-offset 300ms;
+}
   .nav-item {
+    padding: 0px 40px 0 0 ;
     margin:10px 10px 10px 10px;
+    
+  transform: scale(1);
+  }
+  .nav-item:hover {
+ 
+    transition: transform 300ms;
+  transform: scale(1.3);
+  text-decoration-color: rgb(255, 247, 0);
+  transition: text-decoration-color 300ms;
   }
 .navlink {  
 
-  font-size: 15pt;
-  color: rgb(19, 160, 255);
- }
+  font-size: 23pt;
+  color: rgb(255, 255, 255);
+
+}
 .navlink:hover{
   color: rgb(249, 237, 0);
 }

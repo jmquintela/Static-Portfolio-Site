@@ -58,10 +58,8 @@
 				<div class="titleMobile" >
 					{section.Name}
 				</div>
-					<img 
-					class="section" src={section.ImgMobile} alt={section.Name}>
-				
-					
+					<img class="section" src={section.ImgMobile} alt={section.Name}>
+								
 				</a></div>
 			
 			{/each}
