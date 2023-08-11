@@ -15,7 +15,7 @@
 let ext2 = "";
 let sectionName = [
 
-"ArtBoards & Character Design" ,
+"Design" ,
 "Storyboards",
 ];
 
@@ -23,7 +23,7 @@ let designsections = [
 
     {
 	
-	Name :"ArtBoards & Character Design" ,
+	Name :"ArtBoards" ,
 	Description :"Korean Beauty Product", 
 	Agency:"??",
 	ProductionHouse: "Smog",
@@ -40,7 +40,7 @@ let designsections = [
 
 	{ 
 	
-	Name :"Logo Design" , 
+	Name :"Logos" , 
 	Description :"Mental Health Organization",
 	Agency:"??",
 	ProductionHouse: "Smog",

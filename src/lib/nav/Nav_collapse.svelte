@@ -49,8 +49,9 @@
   }
   .nav-item:hover {
  
-    transition: transform 300ms;
-  transform: scale(1.3);
+  transition: transform 300ms;
+  transform: scale(1.1);
+  padding-left: 10px;
   text-decoration-color: rgb(255, 247, 0);
   transition: text-decoration-color 300ms;
   }

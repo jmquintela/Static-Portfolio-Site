@@ -116,17 +116,18 @@ height: auto;
 }
 .title{
 display:flex;
+flex-wrap: nowrap ;
 position: relative; 
-top: 30px; 
+top: 25px; 
 margin-top: -30px;
 align-content: center;
 flex-direction: row;
 justify-content:center;
 z-index: 23;
 background-color: rgba(255, 255, 255, 1);
-flex-wrap: nowrap ;
+
 width: auto;
-height: 30px;
+height: auto;
 
 
 }
@@ -142,7 +143,7 @@ z-index: 23;
 background-color: rgba(255, 255, 255, 1);
 flex-wrap: nowrap ;
 width: auto;
-height: 30px;
+height: auto;
 
 
 }
@@ -261,6 +262,7 @@ max-width: auto;
 	 position: relative;
 	text-decoration:solid;
 	will-change: auto;
+	width:45vw;
 
 }
 	.selection:hover {
